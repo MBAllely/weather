@@ -1,12 +1,9 @@
-var pingPong = require('./../js/ping-pong.js').pingPong;
+var object = require('./../js/object.js').object;
 
 $(document).ready(function(){
-  $('#ping-pong').submit(function(event){
+  $('#html-id').submit(function(event){
     event.preventDefault();
-    var goal = $('#goal').val();
-    var output = pingPong(goal);
-    output.forEach(function(element){
-      $('#solution').append("<li>" + element + "</li>");
+
     });
   });
 });
