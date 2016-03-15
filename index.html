@@ -7,22 +7,17 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/moment/min/moment.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title>Title</title>
+    <title>Weather</title>
   </head>
   <body>
     <div class="container">
-      <h1>Example!</h1>
-      <a href="/weather.html">Click for the weather...</a>
-      <h3>Well look at the time! </h3>
-      <h3 id="time"></h3>
-      <form id="ping-pong">
-        <div class="form-group">
-          <label for="goal">Ping-Pong a Number:</label>
-          <input id="goal" type="number">
-          <button class="btn-success" type="submit">Submit</button>
-        </div>
-      </form>
-      <ul id="solution"></ul>
+      <h1>Get Weather Conditions From Anywhere!</h1>
+      <label for="location">Enter a city:</label>
+      <input id="location" type="text" value="portland">
+      <button class="btn-success" id="weatherLocation">Get Current Humidity!</button>
+      <div class="showWeather">Hi</div>
+      <div class="temperature">WooooOOOOOOO</div>
+
     </div>
   </body>
 </html>
